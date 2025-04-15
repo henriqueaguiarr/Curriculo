@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Alterando a aparência do corpo */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #f4f4f4;
+    color: #000;
+  }
+  
+  /* Aparência da barra lateral esquerda */
+  .sidebar {
+    width: 30%;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Tamanho e formatação da imagem de perfil */
+  .sidebar img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilização do título */
+  .sidebar h2 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #ffd700; /* cor dourada */
+  }
+  
+  /* Estilização dos parágrafos e listas */
+  .sidebar p, .sidebar li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  /* Margem da seção do contato */
+  .contato {
+    margin-top: 30px;
+  }
+  
+  /* Parte principal main */
+  .main {
+    width: 70%;
+    background-color: #fff;
+    padding: 30px;
+  }
+  
+  /* Cabeçalho onde vai o nome */
+  .header {
+    background-color: #ffd700;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+  }
+  
+  .header h2 {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  /* Seções abaixo do cabeçalho */
+  .section {
+    margin-top: 30px;
+  }
+  
+  .section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    padding-bottom: 4px;
+  }
+  
+  /* Listas */
+  ul {
+    padding-left: 20px;
+  }
+  
+  /* Listas da parte de profissões */
+  .job {
+    margin-bottom: 20px;
+  }
+  
+  .job h4 {
+    font-size: 16px;
+  }
+  
+  .job span {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
