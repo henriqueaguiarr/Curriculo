@@ -100,3 +100,18 @@
     margin-bottom: 5px;
   }
   
+  @media (max-width: 1024px) {
+    .sidebar{
+      flex-direction: column-reverse;
+    }
+    .sidebar img{
+      width: auto;
+    }
+    .sidebar p, .sidebar li{
+      width: auto;
+    }
+    .contato{
+      width: auto;
+    }
+
+  }
